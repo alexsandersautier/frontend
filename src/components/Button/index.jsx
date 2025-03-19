@@ -1,8 +1,8 @@
 import { convertToFahranheit } from "@/service/convert";
 
 export default function Button({degraus}) {
-    function handleClick() {
-        const value = convertToFahranheit(degraus);
+    async function handleClick() {
+        const value = await convertToFahranheit(degraus);
         alert(`O valor convertido é ${value}`);
     }
     return(
