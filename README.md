@@ -1,6 +1,6 @@
 # EasyConvert
 
-## this application was created to pratece knowledges about APIs.
+## this application was created to practice knowledge about APIs.
 
 ## Technology
 ### Front End
