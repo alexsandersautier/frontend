@@ -2,6 +2,7 @@
 import Input from "@/components/Input"
 import Button from "@/components/Button"
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Home() {
   const [degraus, setDegraus] = useState(0)
@@ -11,6 +12,9 @@ export default function Home() {
         <h1 className="font-bold text-white">Conversor de Celsius para Fahrenheit</h1>
         <Input degraus={degraus} setDegraus={setDegraus}/>
         <Button degraus={degraus}/>
+      </div>
+      <div>
+        <p>Desenvolvido por <Link href="https://devalexsandersautier.vercel.app/" target="_blank">Alexsander Sautier</Link> </p>
       </div>
     </main>
   );
