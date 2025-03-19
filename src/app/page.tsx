@@ -10,7 +10,7 @@ export default function Home() {
       <div className="padding_5 py-3.5 flex flex-col gap-4 items-center justify-center border rounded-2xl bg-[#010188]">
         <h1 className="font-bold text-white">Conversor de Celsius para Fahrenheit</h1>
         <Input degraus={degraus} setDegraus={setDegraus}/>
-        <Button />
+        <Button degraus={degraus}/>
       </div>
     </main>
   );
