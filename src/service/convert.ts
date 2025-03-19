@@ -2,7 +2,8 @@ import { urlApi } from "@/constants/constants";
 
 export function convertToFahranheit(celsius: number): number{
     let response: any;
-    fetch(urlApi)
+    const currentUrl = `${urlApi}/${celsius}`;
+    fetch(currentUrl)
       .then((res) => response = res.json());
     return response.value;
 }
