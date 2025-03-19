@@ -5,3 +5,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.padding_5 {
+  padding: 20px;
+}
+
+.input_padding{
+  padding: 5px 15px;
+}
